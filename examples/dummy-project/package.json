@@ -1,0 +1,19 @@
+{
+  "name": "@wormhole-foundation/example-relayer-project",
+  "version": "1.0.0",
+  "author": "Juan Sebastian Scatularo",
+  "license": "ISC",
+  "scripts": {
+    "build": "",
+    "start": "relayer @wormhole-foundation/dummy-relayer-plugin"
+  },
+  "dependencies": {
+    "@wormhole-foundation/dummy-relayer-plugin": "workspace:*",
+    "@wormhole-foundation/relayer-engine": "workspace:*",
+    "@wormhole-foundation/relayer-cli": "workspace:*",
+    "@certusone/wormhole-sdk": "~0.9.9",
+    "@solana/web3.js": "~1.73.0",
+    "@types/node": "~18.11.18",
+    "ts-node": "~10.9.1"
+  }
+}

@@ -7,9 +7,3 @@ npm-debug.log
 .nyc
 .env
 .DS_Store
-
-# Rush temporary files
-common/deploy/
-common/temp/
-common/autoinstallers/*/.npmrc
-**/.rush/temp/

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.75.0",
+  "pnpmVersion": "6.7.1",
+  "pnpmOptions": {
+    "useWorkspaces": true
+  },
+  "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0 || >=16.13.0 <17.0.0",
+  "projectFolderMaxDepth": 3,
+  "gitPolicy": {},
+  "repository": {},
+  "eventHooks": {
+    "preRushInstall": [],
+    "postRushInstall": [],
+    "preRushBuild": [],
+    "postRushBuild": []
+  },
+  "variants": [],
+  "projects": [
+    {
+      "packageName": "@wormhole-foundation/relayer-engine",
+      "projectFolder": "packages/engine",
+      "tags": [
+        "sdk",
+        "api"
+      ]
+    },
+    {
+      "packageName": "@wormhole-foundation/relayer-plugin-interface",
+      "projectFolder": "packages/plugin-interface",
+      "tags": [
+        "sdk",
+        "api"
+      ]
+    },
+    {
+      "packageName": "@wormhole-foundation/relayer-cli",
+      "projectFolder": "packages/cli",
+      "tags": [
+        "cli"
+      ]
+    },
+    {
+      "packageName": "@wormhole-foundation/example-relayer-project",
+      "projectFolder": "examples/dummy-project",
+      "tags": [
+        "example",
+        "project"
+      ]
+    },
+    {
+      "packageName": "@wormhole-foundation/dummy-relayer-plugin",
+      "projectFolder": "examples/plugins/dummy-relayer-plugin",
+      "tags": [
+        "example",
+        "plugin"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@wormhole-foundation/relayer-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Juan Sebastian Scatularo",
+  "license": "MIT",
+  "bin": {
+    "relayer": "lib/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "~4.9.4",
+    "@wormhole-foundation/relayer-engine": "workspace:*"
+  }
+}
